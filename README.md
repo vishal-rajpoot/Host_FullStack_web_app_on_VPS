@@ -148,7 +148,6 @@ ln -s /etc/nginx/sites-available/work /etc/nginx/sites-enabled/work
 ```
 ##### Check if the file content is right or not using test configuration.  
 ```
-
 sudo nginx -t
 
 ```
@@ -319,6 +318,17 @@ server {
     }
 }
 
+```
+
+##### Restart Nginx and check the page
+
+```
+systemctl restart nginx
+```
+or 
+
+```
+systemctl reload nginx
 ```
 
 ## SSL Certification
