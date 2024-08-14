@@ -96,6 +96,18 @@ ufw enable
 ufw allow "Nginx Full"
 ```
 
+```
+ufw allow ssh
+```
+
+```
+ufw allow 22/tcp
+```
+
+```
+ufw allow 80/tcp
+```
+
 ## First Page
 
 #### Delete the default server configuration
