@@ -130,13 +130,7 @@ server {
 
 ```
 
-Create a symbolic or soft link  
-
 ```
-ln -s /etc/nginx/sites-available/yourFilename.withExt /etc/nginx/sites-enabled/yourFilename.withExt
-
-```
-
 ln -s /etc/nginx/sites-available/work /etc/nginx/sites-enabled/work
 
 ```
