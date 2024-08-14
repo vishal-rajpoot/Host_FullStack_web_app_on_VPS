@@ -335,7 +335,7 @@ systemctl reload nginx
 ```
 nginx -t
 ```
-##### here you will get the actual reason why it is not working
+#### you will get the actual reason why it is not working, check that file and fix that then after restart nginx
 
 
 ## SSL Certification
