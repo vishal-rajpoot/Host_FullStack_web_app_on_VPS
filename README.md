@@ -331,6 +331,13 @@ or
 systemctl reload nginx
 ```
 
+##### If getting error
+```
+nginx -t
+```
+##### here you will get the actual reason why it is not working
+
+
 ## SSL Certification
 ```
 apt install certbot python3-certbot-nginx
