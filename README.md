@@ -129,13 +129,12 @@ server {
 }
 
 ```
-
+#####  Create a symbolic / soft link  
 ```
 ln -s /etc/nginx/sites-available/work /etc/nginx/sites-enabled/work
 
 ```
 ##### Check if the file content is right or not using test configuration.  
-
 ```
 
 sudo nginx -t
